@@ -29,55 +29,56 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            textBox1 = new TextBox();
             button2 = new Button();
             button3 = new Button();
-            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(348, 559);
+            button1.Location = new Point(796, 178);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(273, 48);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Guardar Estado";
             button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(496, 559);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(635, 559);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 2;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox1
             // 
             textBox1.Location = new Point(12, 21);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(1093, 514);
+            textBox1.Size = new Size(743, 593);
             textBox1.TabIndex = 3;
             textBox1.TextChanged += textBox1_TextChanged;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(796, 294);
+            button2.Name = "button2";
+            button2.Size = new Size(273, 48);
+            button2.TabIndex = 4;
+            button2.Text = "Undo";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(796, 405);
+            button3.Name = "button3";
+            button3.Size = new Size(273, 48);
+            button3.TabIndex = 5;
+            button3.Text = "Redo";
+            button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1117, 637);
-            Controls.Add(textBox1);
             Controls.Add(button3);
             Controls.Add(button2);
+            Controls.Add(textBox1);
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
@@ -88,8 +89,8 @@
         #endregion
 
         private Button button1;
+        private TextBox textBox1;
         private Button button2;
         private Button button3;
-        private TextBox textBox1;
     }
 }

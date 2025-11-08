@@ -36,7 +36,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(796, 178);
+            button1.Location = new Point(714, 195);
             button1.Name = "button1";
             button1.Size = new Size(273, 48);
             button1.TabIndex = 0;
@@ -49,13 +49,13 @@
             textBox1.Location = new Point(12, 21);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(743, 593);
+            textBox1.Size = new Size(633, 593);
             textBox1.TabIndex = 3;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button2
             // 
-            button2.Location = new Point(796, 294);
+            button2.Location = new Point(714, 287);
             button2.Name = "button2";
             button2.Size = new Size(273, 48);
             button2.TabIndex = 4;
@@ -64,7 +64,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(796, 405);
+            button3.Location = new Point(714, 389);
             button3.Name = "button3";
             button3.Size = new Size(273, 48);
             button3.TabIndex = 5;
@@ -75,7 +75,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1117, 637);
+            ClientSize = new Size(1034, 637);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(textBox1);
